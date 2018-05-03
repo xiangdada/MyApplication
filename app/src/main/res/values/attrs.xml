@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextItemView">
+        <attr name="paddingLeft" format="dimension" />
+        <attr name="paddingTop" format="dimension" />
+        <attr name="paddingRight" format="dimension" />
+        <attr name="paddingBottom" format="dimension" />
+        <attr name="title" format="string" />
+        <attr name="value" format="string" />
+        <attr name="identificationColor" format="color" />
+        <attr name="identification" format="string" />
+        <attr name="leftPartWidth" format="dimension" />
+        <attr name="titleColor" format="color" />
+        <attr name="valueColor" format="color" />
+        <attr name="titleGravity">
+            <flag name="left" value="0" />
+            <flag name="top" value="1" />
+            <flag name="right" value="2" />
+            <flag name="bottom" value="3" />
+            <flag name="center_orizontal" value="4" />
+            <flag name="center_vertical" value="5" />
+            <flag name="center" value="6" />
+        </attr>
+        <attr name="valueGravity">
+            <flag name="left" value="0" />
+            <flag name="top" value="1" />
+            <flag name="right" value="2" />
+            <flag name="bottom" value="3" />
+            <flag name="center_orizontal" value="4" />
+            <flag name="center_vertical" value="5" />
+            <flag name="center" value="6" />
+        </attr>
+        <attr name="insideMargin" format="dimension" />
+        <attr name="hint" format="string" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="valueSize" format="dimension" />
+        <attr name="drawableId" format="reference" />
+        <attr name="divide" format="boolean"/>
+        <attr name="divideColor" format="color" />
+        <attr name="divideWidth" format="dimension" />
+
+    </declare-styleable>
+
+
+</resources>
