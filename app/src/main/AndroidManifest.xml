@@ -3,7 +3,7 @@
     package="com.example.administrator.myapplication">
 
 
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -23,7 +23,9 @@
         <activity
             android:name=".MultiselectActivity"
             android:screenOrientation="portrait" />
-
+        <activity
+            android:name=".eventdispatch.EventDispatchActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".DrawViewActivity"
             android:screenOrientation="portrait" />
